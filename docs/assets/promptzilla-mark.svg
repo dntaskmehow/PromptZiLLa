@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">PromptZiLLa mark</title>
+  <desc id="desc">A minimal geometric emblem combining a rounded P and a diagonal Z accent.</desc>
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E5E7EB"/>
+      <stop offset="45%" stop-color="#9CA3AF"/>
+      <stop offset="100%" stop-color="#4B5563"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="52" fill="#0B0F14"/>
+  <path d="M112 58h42c36 0 62 26 62 62s-26 62-62 62h-26v34h-26V58zm26 26v72h16c18 0 30-12 30-36s-12-36-30-36h-16z" fill="url(#g1)"/>
+  <path d="M94 82L164 82L94 176L166 176L166 202L76 202L146 98L82 98L82 72L94 82Z" fill="#F3F4F6" opacity="0.94"/>
+  <circle cx="179" cy="70" r="12" fill="#9BB7FF" opacity="0.9"/>
+</svg>
