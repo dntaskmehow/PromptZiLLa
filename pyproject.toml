@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "promptzilla"
+version = "1.0.0"
+description = "AI model adversarial jailbreak harness and automated bug bounty reporting engine."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Professor Bug & Blackbox R&D" }]
+dependencies = ["pydantic>=2.0.0", "rich>=13.0.0"]
+
+[project.scripts]
+promptzilla = "promptzilla.cli:main"
